@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <!-- le da un poco de movimietnto a algunos elementos al cargar la pagina -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> 
+    <title>Jane Doe | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>JANE DOE</h1>
+      <ul class="navegacion">
+        <li><a href="#sobremi" class="nav-link"> Acerca de Mí</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="menu-hamburguesa" id="menu-hamburguesa">
+        <ion-icon class="barras" name="menu-outline"></ion-icon> 
+
+      </button>
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img 
+      src="assets/images/wfh_1.svg" 
+      alt="jane-doe"
+      loading="lazy"
+      class="hero"
+      >
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-titulo">Sobre Mí</h2>
+        <p class="bio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, possimus iure ipsum totam architecto recusandae vitae rerum blanditiis perspiciatis odit fuga eligendi aliquid quas mollitia. Quisquam adipisci exercitationem tenetur rem?
+        </p>
+      </div>
+    </section>
+    
+    <!-- More about -->
+    <section class="mas-sobre">
+      <h2>Más sobre Mí</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis ut quos non repellat ipsum odit, ipsam commodi quis voluptatem, placeat consectetur culpa explicabo illo eum veniam in aperiam! Molestias.</p>
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus necessitatibus doloribus similique! Omnis rem accusamus excepturi quod, distinctio alias magni vero asperiores fuga magnam quos, dolor dicta cumque, sit atque.</p>
+      
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, natus repudiandae impedit cumque quasi consectetur explicabo quibusdam vel, aliquam eveniet harum aspernatur autem ipsa fugit, sint quo animi sapiente doloribus?</p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidades">My top skills</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="first-set animate__animated animate__pulse">
+          <img 
+          src="assets/icons/icons8-html-5.svg" 
+          alt="logo-html"
+          loading="lazy"
+          class="icon icon-card">
+
+          <img 
+          src="assets/icons/icons8-css3.svg" 
+          alt="logo-css"
+          loading="lazy"
+          class="icon icon-card">
+
+          <img 
+          src="assets/icons/icons8-javascript.svg" 
+          alt="logo-JS"
+          loading="lazy"
+          class="icon icon-card">
+        </div>
+
+        <!-- ----------------------->
+        <div class="second-set animate__animated animate__pulse">
+          <img 
+          src="assets/icons/icons8-bootstrap.svg" 
+          alt="logo-Bootstrap"
+          loading="lazy"
+          class="icon icon-card">
+
+          <img 
+          src="assets/icons/icons8-react-native.svg" 
+          alt="logo-React"
+          loading="lazy"
+          class="icon icon-card">
+
+          <img 
+          src="assets/icons/icons8-git.svg" 
+          alt="logo-GitHub"
+          loading="lazy"
+          class="icon icon-card">
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="proyectos" id="proyectos">
+      <h2 class="titulo-proyecto">Algunos de mis proyectos recientes</h2>
+      <!--Proyecto1-->
+      <div class="contenedor-de-proyectos">
+        <div class="contenedor-proyecto tarjeta-de-proyecto">
+          <img 
+          src="assets/images/expenseTracker.png"
+          alt="rastreaor-de-gatos" 
+          loading="lazy"
+          class="project-pic">
+          <h3 class="titulo-proyecto">Rastreador de Gatos</h3>
+          <p class="detalles-proyecto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Chek it out!</a>
+        </div>
+        <!--Proyecto2-->
+        <div class="contenedor-proyecto tarjeta-de-proyecto">
+          <img 
+          src="assets/images/netflixClone.png" 
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic">
+          <h3 class="titulo-proyecto">Netflix clone</h3>
+          <p class="detalles-proyecto">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it out!</a>
+        </div>
+        <!--Proyecto3-->
+        <div class="contenedor-proyecto tarjeta-de-proyecto">
+          <img 
+          src="assets/images/greenyEarth.png" 
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic">
+          <h3 class="titulo-proyecto">Greeny Earth</h3>
+          <p class="detalles-proyecto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it out!</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contacto" id="contacto">
+      <h2>Contactame</h2>
+      <div class="formulario-contacto-contenedor">
+        <div class="formulario-contacto">
+          <form action="https://formspree.io/f/xyylngw" method="post">
+            <div class="control-formulario">
+              <label for="name">Nombre</label>
+              <input type="text" 
+              id="name" 
+              name="name" 
+              placeholder="Escribe tu nombre"
+              class="input-field" 
+              required>
+            </div>
+            <div class="control-formulario">
+              <label for="email">Email</label>
+              <input type="email" 
+              id="email" 
+              name="email" 
+              placeholder="Ingresa tu correo electronico"
+              class="input-field" 
+              required>
+            </div>
+            <div class="control-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" 
+              name="mensaje"
+              cols="60" 
+              rows="10" 
+              placeholder="Escribe tu mensaje"
+              class="input-field" 
+              required>
+            </textarea> 
+            </div>
+            <input 
+            type="submit"
+            value="Enviar" 
+            id="submit-btn"
+            class="submit-btn"><!--value:"Enviar" es el texto dentro del botón-->
+          </form> 
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="sociales">
+      <a href="#" target="_blank">
+        <img 
+        src="assets/icons/icons8-twitter-circled.gif" 
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+        >
+      </a>
+      <a href="#" target="_blank">
+        <img 
+        src="assets/icons/icons8-instagram.gif" 
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+        >
+      </a>
+      <a href="#" target="_blank">
+        <img 
+        src="assets/icons/icons8-linkedin-circled.gif" 
+        alt="LinkedIn"
+        loading="lazy"
+        class="socicon"
+        >
+      </a>
+      <a href="#" target="_blank">
+        <img 
+        src="assets/icons/icons8-github.gif" 
+        alt="GitHub"
+        loading="lazy"
+        class="socicon"
+        >
+      </a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy;Copyright 2023</p> <!--&copy; simbolo de copyrigth-->
+      <p class="copy">
+        Built with &#x2661; by <a href="https://twitter.com/koladechris">Kolade Chris(Ksound)</a> 
+      </p>
+    </footer>
+    <!-- boton de desplazamiento -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba">
+      <img src="assets/icons/icons8-upward-arrow.gif" 
+      alt="desplazarse-hacia-arriba"
+      class="socicon flecha-arriba">
+    </i>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
